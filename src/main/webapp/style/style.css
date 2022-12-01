@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(110, 119, 224);
+    height: 100vh;
+    width: 100vw;
+}
+
+canvas {
+    background-color: white;
+}
+
+h1 {
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    order: 0;
+}
+
+header form {
+    order: 1;
+    position: relative;
+    float: right;
+}
+
+#loginForm {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+}
+
+#loginForm form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#drawContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+#drawContainer form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 500px;
+    align-items: baseline;
+}
+
+#drawForm {
+    margin: auto;
+}
+
+#drawForm * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#drawForm label {
+    width: 30%;
+    height: fit-content;
+}
+
+#drawForm input {
+    width: 70%;
+    height: fit-content;
+}
+
+#drawForm select {
+    width: 70%;
+    height: fit-content;
+}
+
+#formSubmit {
+    width: 100% !important;
+    height: 100px !important;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+}
+
+fieldset legend {
+    margin-left: 10;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-left: 15px;
+    width: 15% !important;
+}
+
+fieldset input {
+    display: inline-block;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid white;
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid grey;
+    padding: 5px;
+    width: 25% !important;
+    text-align: center;
+}
+
+table th {
+    background-color: deepskyblue;
+    color: white;
+}
+
+table tr {
+    background-color: aliceblue;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(169, 255, 255);
+}
+
+.displayName {
+    font-weight: bold;
+}
+
+.displayOwner{
+    font-style: italic;
+}
+
+.displayButton{
+    width: 75%;
+}
+
+#previewCanvas{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
